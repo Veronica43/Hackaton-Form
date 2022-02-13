@@ -7,7 +7,6 @@ const StepOne = ({ nextStep, handleFormData, values }) => {
   //creating error state for validation
   const [error, setError] = useState(false);
 
-  // after form submit validating the form data using validator
   const submitFormData = (e) => {
     e.preventDefault();
 
@@ -22,9 +21,9 @@ const StepOne = ({ nextStep, handleFormData, values }) => {
   return (
     <div>
       <h1>Welcome to MWC</h1>
-      <span>Let's see the future...</span>
+      <span>Let's build the future together...</span>
       <div className="form-container">
-        <form onSubmit={submitFormData} noValidate autoComplete="off">
+        <form onSubmit={submitFormData}>
           <input
             style={{ border: error ? "2px solid red" : "" }}
             name="fullName"
@@ -35,7 +34,6 @@ const StepOne = ({ nextStep, handleFormData, values }) => {
           />
 
           <input
-            className=""
             style={{ border: error ? "2px solid red" : "" }}
             name="email"
             defaultValue={values.email}

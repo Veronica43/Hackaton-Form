@@ -7,7 +7,6 @@ const StepTwo = ({ nextStep, handleFormData, prevStep, values }) => {
   //creating error state for validation
   const [error, setError] = useState(false);
 
-  // after form submit validating the form data using validator
   const submitFormData = (e) => {
     e.preventDefault();
 
