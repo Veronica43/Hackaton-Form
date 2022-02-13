@@ -3,7 +3,7 @@ import "./formOne.css";
 import validator from "validator";
 
 // creating functional component ans getting props from app.js and destucturing them
-const StepOne = ({ nextStep, handleFormData, values }) => {
+const FormOne = ({ nextStep, handleFormData, values }) => {
   //creating error state for validation
   const [error, setError] = useState(false);
 
@@ -76,4 +76,4 @@ const StepOne = ({ nextStep, handleFormData, values }) => {
   );
 };
 
-export default StepOne;
+export default FormOne;

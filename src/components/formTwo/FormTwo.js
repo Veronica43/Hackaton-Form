@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import validator from "validator";
 
 // creating functional component ans getting props from app.js and destucturing them
-const StepTwo = ({ nextStep, handleFormData, prevStep, values }) => {
+const FormTwo = ({ nextStep, handleFormData, prevStep, values }) => {
   //creating error state for validation
   const [error, setError] = useState(false);
 
@@ -63,4 +63,4 @@ const StepTwo = ({ nextStep, handleFormData, prevStep, values }) => {
   );
 };
 
-export default StepTwo;
+export default FormTwo;

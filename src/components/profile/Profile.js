@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./profile.css";
-const Final = ({ values }) => {
+const Profile = ({ values }) => {
   //destructuring the object from values
   const [url, setUrl] = useState("");
 
@@ -66,4 +66,4 @@ const Final = ({ values }) => {
   );
 };
 
-export default Final;
+export default Profile;
