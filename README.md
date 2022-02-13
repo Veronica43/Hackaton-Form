@@ -1,6 +1,6 @@
 # Form Multi Step
 
-This project is created to participate in the Hackathon organized by Barcelona Digital Talent and Nuwe.
+This project is created to participate in the Hackathon organized by Barcelona Digital Talent , Mobile World Capital Barcelona and Nuwe.
 
 It consists of Multi-Step-Form
 
