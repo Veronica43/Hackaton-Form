@@ -24,13 +24,13 @@ Open your terminal.
 
 Type git clone, and then paste the URL you copied earlier.
 
-$ git clone URL
+$ git clone https://github.com/Veronica43/Hackaton-Form.git
 
 Press Enter to create your local clone.
 
 cd into the created folder which contains the project.
 
-$ cd
+$ cd form
 
 Install the dependencies with npm install to be able to start the project.
 
