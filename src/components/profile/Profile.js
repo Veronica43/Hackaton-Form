@@ -27,7 +27,7 @@ const Profile = ({ values }) => {
     <div className="main">
       <img src={url} alt="Random generated robot pic" />
       <h2>
-        Thank you
+        Thank you!
         <span>See you soon!!</span>
       </h2>
 

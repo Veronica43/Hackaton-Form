@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./formTwo.css";
 import validator from "validator";
 
 // creating functional component ans getting props from app.js and destucturing them
@@ -19,7 +19,7 @@ const FormTwo = ({ nextStep, handleFormData, prevStep, values }) => {
   };
   return (
     <div>
-      <h1>Welcome to MWC</h1>
+      <h1>Let's do this!</h1>
       <span>It Always seems impossible until it's done!</span>
       <div className="form-container">
         <form onSubmit={submitFormData} noValidate autoComplete="off">
