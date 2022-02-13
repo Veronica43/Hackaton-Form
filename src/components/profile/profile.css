@@ -1,0 +1,28 @@
+img {
+  width: 10%;
+  border-radius: 100px;
+  display: flex;
+  margin-left: 4rem;
+}
+
+.container {
+  margin-top: 4rem;
+  font-size: 16px;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 40px;
+  color: white;
+}
+h3 {
+  color: white;
+}
+h4 {
+  font-size: 20px;
+  color: white;
+}
+strong {
+  font-size: 16px;
+  color: rgb(189, 43, 226);
+}
