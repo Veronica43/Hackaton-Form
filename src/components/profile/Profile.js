@@ -26,10 +26,6 @@ const Profile = ({ values }) => {
   return (
     <div className="main">
       <img src={url} alt="Random generated robot pic" />
-      <h2>
-        Thank you!
-        <span>See you soon!!</span>
-      </h2>
 
       <div className="container">
         <h2>{fullName}</h2>
@@ -62,6 +58,7 @@ const Profile = ({ values }) => {
           <strong> #{skills}</strong>
         </h4>{" "}
       </div>
+      <footer>Made by Veronica Ortega 💚</footer>
     </div>
   );
 };

@@ -1,19 +1,26 @@
 img {
   width: 10%;
+  height: 10%;
   border-radius: 100px;
-  display: flex;
-  margin-left: 4rem;
+  padding: 20px;
+  margin-left: 3rem;
 }
 
+.main {
+  margin-bottom: 1rem;
+  justify-content: center;
+}
 .container {
-  display: flex;
-  flex-direction: column;
+  padding: 10px;
 
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(2, 1fr);
   font-size: 16px;
 }
 
 h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   font-size: 40px;
   color: white;
 }
@@ -27,4 +34,17 @@ h4 {
 strong {
   font-size: 16px;
   color: rgb(189, 43, 226);
+}
+footer {
+  margin-top: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  img {
+    width: 15%;
+    height: 15%;
+  }
 }
